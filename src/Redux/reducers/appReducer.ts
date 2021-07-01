@@ -27,5 +27,3 @@ export const appReducer = (state = initialState, actions: ActionsType): InitialS
 export const setAppStatusAC = (status: RequestStatusType) => ({type: 'SET-APP-STATUS', status} as const)
 
 export const setAppErrorAC = (error: string | null) => ({type: 'SET-APP-ERROR', error} as const)
-
-//test comit
